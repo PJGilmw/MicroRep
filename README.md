@@ -9,7 +9,7 @@ output:
 
 ## Content
 
- This repository contains an archive that must be downloaded on you machine, keeping the same folder structure.
+ This repository contains an archive  **_Code_git.7z_** that must be downloaded on you machine, keeping the same folder structure.
  The files are:
 
 + 1 json file **_Microalgae_foreground.json_** that contains the foreground database.
