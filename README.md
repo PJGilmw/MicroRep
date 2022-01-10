@@ -39,7 +39,7 @@ The csv, the scripts and their functions'interconnections are mapped below.
 <br>  
 
 
-<img src="code map.jpg"
+<img src="Code map.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />  
 <br>  
