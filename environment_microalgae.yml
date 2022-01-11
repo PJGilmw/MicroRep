@@ -1,0 +1,25 @@
+name: environment_microalgae
+channels:
+  - defaults
+  - conda-forge
+  - cmutel
+  - bsteubing
+  - haasad
+  - pascallesage
+dependencies:
+  - python=3.8
+  - activity-browser-dev
+  - spyder=4.1.4
+  - notebook
+  - jupyter
+  - pulp
+  - ipython
+  - jupyterlab
+  - pyqt
+  - requests
+  - paramiko
+  - anyjson
+  - salib=1.3.11
+  - seaborn=0.11.1
+  - scipy=1.6.0
+
