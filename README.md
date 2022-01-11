@@ -85,7 +85,7 @@ Contains functions which calculate the LCI for one set of primary parameters and
 
 ### Behavior of specific model modules
 
-*The scripts named with a 2 can be used to observe the behaviour of some of the model's modules.*  
+*The scripts named with a 2 can be used to observe the behavior of some of the model's modules.*  
 
 <br>
 
@@ -101,11 +101,11 @@ Simulates the temperature evolution and thermoregulation and plots results for d
 
 **Fish_feed_Optimization_behavior_2**  
 
-Demonstrates the behaviour of the optimization algorithm for fish feed substitution.
+Demonstrates the behavior of the optimization algorithm for fish feed substitution.
 
 **Geometry_and_solar_power_behavior_2**  
 
-Demonstrates the behaviour of the module estimating the solar power received by a given PBR geometry.
+Demonstrates the behavior of the module estimating the solar power received by a given PBR geometry.
 
 **Correlation_plot_2**  
 
