@@ -23,7 +23,10 @@ by Geider et al. 2011.
 
 + **_Plot.R_** R script to plot the figures from the article based on the results of the simulations.  
 
-+ 12 Python scripts including the model itself and needed to run the simulations.  
++ **environment_microalgae.yml** file needed to create the virtual environment with all the required dependencies to run the model
+
++ Twelve **.py** files: python scripts including the model itself and needed to run the simulations. 
+
 
 
 Files, scripts, and their functions'interconnections are mapped below.  
@@ -32,6 +35,7 @@ Files, scripts, and their functions'interconnections are mapped below.
 <img src="Code map.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />  
+
 <br>  
 
 ### Model functions
