@@ -16,7 +16,7 @@ This will take some time.
 
 # Change the path your Ecoinvent files
 
-ei36dir = r"/Users/massimo/Documents/Databases/ecoinvent v3.6/datasets"
+ei36dir = r"C:/Users/GF20PZ/OneDrive - Aalborg Universitet/Dokumenter/AAU/Databases,softwares/Brightway/Ecoinvent/Ecoinvent 3.6/datasets"
 
 
 import bw2data
@@ -26,6 +26,14 @@ import brightway2 as bw
 import json
 import scipy
 import ast
+
+import os
+# Set working directory to file location 
+# (works only when executing the whole file and not only sections (Run Current cell))
+
+currentfolder=os.path.dirname(os.path.realpath(__file__))
+os.chdir(currentfolder)
+
 
 bw.projects.set_current("Microalgae_Sim")
 
