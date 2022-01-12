@@ -150,7 +150,7 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 + From terminal or Anaconda/Miniconda terminal access the directory where the repository code has been downloaded:
 
 ```
- cd yourpathtothefolder"Environment"
+ cd <yourpathtothefolder>
 ```
 
 + Create the conda environment with all necessary packages using the .yml file
@@ -167,15 +167,15 @@ conda activate environment_microalgae
 
 3. **Set up the Brigtway2 project**
 
-+ Open the script **Prepare_project.py** in a text editor or python interface and change the ecoinvent directory to match the directory where the ecoinvent files are on your drive. 
++ In the Scripts directory, open the file **Prepare_project.py** in a text editor or python interface and change the value of the variable ```ei36dir``` by specifying the directory where the ecoinvent files are on your drive: ```ei36dir = <yourpathtoecoinventfiles>```. 
 
-+ From the python interface or from command line (```python Prepare_project.py```) execute the whole script to prepare the Brightway2 project.
++ Prepare the Brightwaay2rom the python interface or from command line (```python Prepare_project.py```) execute the whole script to prepare the Brightway2 project.
 
 4. **Run the simulations using the model** 
 
-+ Open the script **Simulate.py**. Read the instructions at the top of the file and, as indicated, change the value of the variable ```Size_sample``` to choose the size of the sample for the Fourier Amplitude Sensitivity test. A value of ```Size_sample = 1500``` (1500*6 parameters = 9000 combinations and iterations) was used in the article but a lower value can be chosen for lower calculation time.
++ In the Scripts directory, open the file **Simulate.py**. Read the instructions at the top of the file and, as indicated, change the value of the variable ```Size_sample``` to choose the size of the sample for the Fourier Amplitude Sensitivity test. A value of ```Size_sample = 1500``` (1500*6 parameters = 9000 combinations and iterations) was used in the article but a lower value can be chosen for lower calculation time.
 
-+ From the python interface or from command line (```python Simulate.py```) execute the whole script to run the simulation. 
++ Run the simulation by executing the whole script from the python interface or from command line (```python Simulate.py```). 
 
 + Wait for all the simulations to be finished (Takes a few minutes to a few hours depending on the sample size and your computer). The script will export excel and csv files in the folder "Outputs".
 

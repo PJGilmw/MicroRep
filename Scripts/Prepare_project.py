@@ -16,7 +16,7 @@ This will take some time.
 
 # Change the path your Ecoinvent files
 
-ei36dir = r"C:/Users/GF20PZ/OneDrive - Aalborg Universitet/Dokumenter/AAU/Databases,softwares/Brightway/Ecoinvent/Ecoinvent 3.6/datasets"
+ei36dir = r"/Users/massimo/Documents/Databases/ecoinvent v3.6/datasets"
 
 
 import bw2data
@@ -27,7 +27,7 @@ import json
 import scipy
 import ast
 
-projects.set_current("Microalgae_Sim")
+bw.projects.set_current("Microalgae_Sim")
 
 bw.bw2setup()
 
@@ -43,11 +43,7 @@ else:
     ei36 = bw.SingleOutputEcospold2Importer(ei36dir, 'ecoinvent 3.6 conseq',use_mp=False) 
     ei36.apply_strategies()
     ei36.statistics()
-
-
-ei36.write_database() # This will take some time.
-
-
+    ei36.write_database() # This will take some time.
 
 
 # Import the foreground database
@@ -60,9 +56,9 @@ def remap_keys(mapping):
 
 
 
-def import_database_data_from_json(jsonfilepath,namedatabase):
+def import_database_data_from_json(jsonfilepath):
       
-    with open(namedatabase+'.json') as json_file:
+    with open(jsonfilepath+'.json') as json_file:
         data = json.load(json_file)
       
     database = {ast.literal_eval(k): v for k, v in data.items()}
@@ -72,7 +68,7 @@ def import_database_data_from_json(jsonfilepath,namedatabase):
 
 
 
-database_dict=import_database_data_from_json('../Data/Microalgae_foreground','Microalgae_foreground')
+database_dict=import_database_data_from_json('../Data/Microalgae_foreground')
 
 MICAH = bw.Database("Microalgae_foreground")
 
