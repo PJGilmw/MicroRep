@@ -192,12 +192,6 @@ You may have to install a few extra packages from CRAN as indicated by the R int
 <br>  
 
 
-REFERENCES
-
-Geider, R. & La Roche, J. Redfield revisited: variability of C:N:P in marine microalgae and its biochemical basis, European Journal of Phycology, 37:1, 1-17, (2002)
-
-Perez-Lopez, P. et al. Comparative life cycle assessment of real pilot reactors for microalgae cultivation in different seasons. Appl. Energy 205, 1151-1164 (2017)
-
 
 ### DOI and versions
 
@@ -209,4 +203,12 @@ You can cite all versions by using the concept DOI 10.5281/zenodo.5863188 that r
 However, it is recommended that you cite the specific version, for example for version 1.0.0:
 
 Pierre Jouannais. (2022, January 17). PJGilmw/MicroRep: Release MicroRep_v1.0.0 Zenodo. http://doi.org/10.5281/zenodo.5863189
+
+
+### REFERENCES
+
+Geider, R. & La Roche, J. Redfield revisited: variability of C:N:P in marine microalgae and its biochemical basis, European Journal of Phycology, 37:1, 1-17, (2002)
+
+Perez-Lopez, P. et al. Comparative life cycle assessment of real pilot reactors for microalgae cultivation in different seasons. Appl. Energy 205, 1151-1164 (2017)
+
 
