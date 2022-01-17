@@ -197,3 +197,16 @@ REFERENCES
 Geider, R. & La Roche, J. Redfield revisited: variability of C:N:P in marine microalgae and its biochemical basis, European Journal of Phycology, 37:1, 1-17, (2002)
 
 Perez-Lopez, P. et al. Comparative life cycle assessment of real pilot reactors for microalgae cultivation in different seasons. Appl. Energy 205, 1151-1164 (2017)
+
+
+### DOI and versions
+
+Version identifier: [![DOI](https://zenodo.org/badge/446231249.svg)](https://zenodo.org/badge/latestdoi/446231249)
+
+
+You can cite all versions by using the concept DOI 10.5281/zenodo.5863188 that represents all versions, and will always resolve to the latest one.
+
+However, it is recommended that you cite the specific version, for example for version 1.0.0:
+
+Pierre Jouannais. (2022, January 17). PJGilmw/MicroRep: Release MicroRep_v1.0.0 Zenodo. http://doi.org/10.5281/zenodo.5863189
+
